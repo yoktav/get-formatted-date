@@ -34,14 +34,16 @@ const calculateDate = params => {
   return formattedDate;
 };
 
-export function getDate(params) {
+function getDate(params) {
   calculateDate(params);
 }
 
-export function getYesterday(params) {
+function getYesterday(params) {
   calculateDate({ ...params, date: new Date(params.date).valueOf() - ONE_DAY_AS_MILISECOND });
 }
 
-export function getTomorrow(params) {
+function getTomorrow(params) {
   calculateDate({ ...params, date: new Date(params.date).valueOf() + ONE_DAY_AS_MILISECOND });
 }
+
+module.exports = { getDate, getYesterday, getTomorrow };
