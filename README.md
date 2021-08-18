@@ -29,7 +29,6 @@ import { getDate, getYesterday, getTomorrow } from 'get-formatted-date';
 
 const myDate = new Date() // Let's say new Date() is 05.01.2021 - 11:00
 
-// Detailed usage
 getDate({ date: myDate, seperator: '/', hasHM: true, timeSeperator: '-', HMSeperator: '.' }); // Returns 05/01/2021 - 11.00
 getYesterday({ date: myDate, seperator: '/', hasHM: true, timeSeperator: '-', HMSeperator: '.' }); // Returns 04/01/2021 - 11.00
 getTomorrow({ date: myDate, seperator: '/', hasHM: true, timeSeperator: '-', HMSeperator: '.' }); // Returns 06/01/2021 - 11.00
