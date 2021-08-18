@@ -11,10 +11,11 @@ const calculateDate = params => {
     HMSeperator: hourAndMinuteSeperator,
   } = params;
 
+  if (date == undefined) date = new Date();
   if (seperator == undefined) seperator = '.';
   if (timeSeperator == undefined) timeSeperator = '-';
-  if (hourAndMinuteSeperator == undefined) hourAndMinuteSeperator = ':';
   if (hasHourAndMinute == undefined) hasHourAndMinute = false;
+  if (hourAndMinuteSeperator == undefined) hourAndMinuteSeperator = ':';
 
   const utc = new Date(date).toUTCString();
 
