@@ -34,10 +34,14 @@ const calculateDate = params => {
   return formattedDate;
 };
 
-export const getDate = params => calculateDate(params);
+export function getDate(params) {
+  calculateDate(params);
+}
 
-// prettier-ignore
-export const getYesterday = params => calculateDate({ ...params, date: new Date(params.date).valueOf() - ONE_DAY_AS_MILISECOND });
+export function getYesterday(params) {
+  calculateDate({ ...params, date: new Date(params.date).valueOf() - ONE_DAY_AS_MILISECOND });
+}
 
-// prettier-ignore
-export const getTomorrow = params => calculateDate({ ...params, date: new Date(params.date).valueOf() + ONE_DAY_AS_MILISECOND });
+export function getTomorrow(params) {
+  calculateDate({ ...params, date: new Date(params.date).valueOf() + ONE_DAY_AS_MILISECOND });
+}
