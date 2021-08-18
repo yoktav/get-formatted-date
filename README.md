@@ -1,4 +1,4 @@
-# Get My Date
+# Get Formatted Date
 
 [![Maintenance](https://img.shields.io/badge/Maintained%3F-yes-green.svg)](https://GitHub.com/Naereen/StrapDown.js/graphs/commit-activity)
 [![Open Source Love svg1](https://badges.frapsoft.com/os/v1/open-source.svg?v=103)](https://github.com/ellerbrock/open-source-badges/)
@@ -14,7 +14,7 @@ Get formatted date with zero dependencies!
 
 ### Basic Usage
 ```javascript
-import { getDate, getYesterday, getTomorrow } from 'get-my-date';
+import { getDate, getYesterday, getTomorrow } from 'get-formatted-date';
 
 const myDate = new Date() // Let's say new Date() is 05.01.2021 - 11:00
 
@@ -25,7 +25,7 @@ getTomorrow({ date: myDate }); // Returns 06.08.2021
 
 ### Detailed Usage
 ```javascript
-import { getDate, getYesterday, getTomorrow } from 'get-my-date';
+import { getDate, getYesterday, getTomorrow } from 'get-formatted-date';
 
 const myDate = new Date() // Let's say new Date() is 05.01.2021 - 11:00
 
@@ -47,7 +47,7 @@ getTomorrow({ date: myDate, seperator: '/', hasHM: true, timeSeperator: '-', HMS
 
 ## Todo
 - [x] Create the code!
-- [ ] Make a NPM Package
+- [X] Make a NPM Package
 - [ ] Configure for cdn usage
 - [ ] Add DDMMYYYY etc. support
 - [ ] Add webpack | Gulp | Rollup
