@@ -38,11 +38,11 @@ getTomorrow({ date: myDate, seperator: '/', hasHM: true, timeSeperator: '-', HMS
 ## Options
 | Params | Type | Description |
 | --- | --- | --- |
-| `date` | Time value \| Timestamp \| Timestamp String | For more info see [this MDN document](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Date/Date) |
-| `seperator` | String | Default: `'.'` <br> Seperator betwen dates |
-| `hasHM` | Boolean | Default: `false` <br> Whether include Hour and Minute |
-| `timeSeperator` | String | Default: `'_'` <br> Seperator for date and time |
-| `HMSeperator` | String | Default: `':'` <br> Seperator for hour and minute |
+| `date` | Time value \| Timestamp \| Timestamp String |  Default: new Date() <br /> For more info see [this MDN document](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Date/Date) |
+| `seperator` | String | Default: `'.'` <br /> Seperator between dates |
+| `hasHM` | Boolean | Default: false <br /> Whether include Hour and Minute |
+| `timeSeperator` | String | Default: `'-'` <br /> Seperator for date and time |
+| `HMSeperator` | String | Default: `':'` <br /> Seperator for hour and minute |
 
 
 ## Todo
