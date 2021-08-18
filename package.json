@@ -2,7 +2,7 @@
   "name": "get-formatted-date",
   "version": "1.0.0",
   "description": "Get formatted date with zero dependencies!",
-  "main": "src/get-formatted-date.js",
+  "main": "src/index.js",
   "keywords": [
     "get",
     "date",
