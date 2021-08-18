@@ -1,0 +1,42 @@
+{
+  "name": "get-my-date",
+  "version": "1.0.0",
+  "description": "Get formatted date with zero dependencies!",
+  "main": "src/get-my-date.js",
+  "keywords": [
+    "get",
+    "date",
+    "js",
+    "time",
+    "string",
+    "timestamp",
+    "value",
+    "utc",
+    "simple"
+  ],
+  "author": "Yilmaz Oktav <hello@yilmazoktav.com>",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/yoktav/get-my-date.git"
+  },
+  "bugs": {
+    "url": "https://github.com/yoktav/get-my-date/issues"
+  },
+  "homepage": "https://github.com/yoktav/get-my-date#readme",
+  "license": "ISC",
+  "scripts": {
+    "lint": "eslint \"**/*.js\"",
+    "format": "prettier --write \"**/*.js\""
+  },
+  "engines": {
+    "node": "12.22.0"
+  },
+  "devDependencies": {
+    "babel-eslint": "^10.1.0",
+    "eslint": "^7.32.0",
+    "eslint-config-prettier": "^8.3.0",
+    "eslint-loader": "^4.0.2",
+    "eslint-plugin-prettier": "^3.4.0",
+    "prettier": "^2.3.2"
+  }
+}
