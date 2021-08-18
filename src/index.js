@@ -34,16 +34,12 @@ const calculateDate = params => {
   return formattedDate;
 };
 
-function getDate(params) {
-  calculateDate(params);
-}
+const getDate = params => calculateDate(params);
 
-function getYesterday(params) {
-  calculateDate({ ...params, date: new Date(params.date).valueOf() - ONE_DAY_AS_MILISECOND });
-}
+// prettier-ignore
+const getYesterday = params => calculateDate({ ...params, date: new Date(params.date).valueOf() - ONE_DAY_AS_MILISECOND });
 
-function getTomorrow(params) {
-  calculateDate({ ...params, date: new Date(params.date).valueOf() + ONE_DAY_AS_MILISECOND });
-}
+// prettier-ignore
+const getTomorrow = params => calculateDate({ ...params, date: new Date(params.date).valueOf() + ONE_DAY_AS_MILISECOND });
 
 module.exports = { getDate, getYesterday, getTomorrow };
