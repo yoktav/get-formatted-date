@@ -1,8 +1,8 @@
 {
-  "name": "get-my-date",
+  "name": "get-formatted-date",
   "version": "1.0.0",
   "description": "Get formatted date with zero dependencies!",
-  "main": "src/get-my-date.js",
+  "main": "src/get-formatted-date.js",
   "keywords": [
     "get",
     "date",
@@ -17,12 +17,12 @@
   "author": "Yilmaz Oktav <hello@yilmazoktav.com>",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/yoktav/get-my-date.git"
+    "url": "git+https://github.com/yoktav/get-formatted-date.git"
   },
   "bugs": {
-    "url": "https://github.com/yoktav/get-my-date/issues"
+    "url": "https://github.com/yoktav/get-formatted-date/issues"
   },
-  "homepage": "https://github.com/yoktav/get-my-date#readme",
+  "homepage": "https://github.com/yoktav/get-formatted-date#readme",
   "license": "ISC",
   "scripts": {
     "lint": "eslint \"**/*.js\"",
