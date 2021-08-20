@@ -1,5 +1,6 @@
 # Get Formatted Date
 
+[![NPM version](https://img.shields.io/npm/v/get-formatted-date.svg?style=flat)](https://www.npmjs.com/package/get-formatted-date)
 [![Maintenance](https://img.shields.io/badge/Maintained%3F-yes-green.svg)](https://GitHub.com/Naereen/StrapDown.js/graphs/commit-activity)
 [![Open Source Love svg1](https://badges.frapsoft.com/os/v1/open-source.svg?v=103)](https://github.com/ellerbrock/open-source-badges/)
 
