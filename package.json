@@ -28,9 +28,6 @@
     "lint": "eslint \"**/*.js\"",
     "format": "prettier --write \"**/*.js\""
   },
-  "engines": {
-    "node": "12.22.0"
-  },
   "devDependencies": {
     "babel-eslint": "^10.1.0",
     "eslint": "^7.32.0",
