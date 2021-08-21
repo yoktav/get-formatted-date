@@ -1,6 +1,6 @@
 {
   "name": "get-formatted-date",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "Get formatted date with zero dependencies!",
   "main": "src/index.js",
   "keywords": [
